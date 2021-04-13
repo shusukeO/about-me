@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
-
+import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -21,6 +21,8 @@ const Work = (props) => {
     const classes = useStyles();
 
     const content = {
+        'header': 'Works',
+        'description': '研究とか作ったものとか',
         'image1': 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
         'image2': 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
         ...props.content
@@ -28,6 +30,12 @@ const Work = (props) => {
 
     return (
         <Box py={4}>
+            <Container maxWidth="sm">
+                <Box textAlign="center" mb={5}>
+                    <Typography variant="h4" component="h2" gutterBottom={true}>{content['header']}</Typography>
+                    <Typography variant="subtitle1" color="textSecondary">{content['description']}</Typography>
+                </Box>
+            </Container>
             <Container maxWidth="lg">
                 <Grid container spacing={4}>
                     <Grid item xs={12} md={6}>

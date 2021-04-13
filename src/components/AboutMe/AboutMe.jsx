@@ -92,7 +92,7 @@ const AboutMe = (props) => {
         'description': '自己紹介',
         '01_image': 'myicon.png',
         '01_name': '沖原周佑',
-        '01_job': 'Keio University Student',
+        '01_job': 'University Student',
         '01_description': '慶應SFCで主にコンピュータサイエンスを勉強しています。中澤・大越研究室に所属し、センシングに関する研究を行っています。',
         'careers': [
             { label: '1999年 千葉県柏市生まれ' },
