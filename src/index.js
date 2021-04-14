@@ -10,7 +10,7 @@ import AboutMe from './components/AboutMe/AboutMe';
 import Header from './components/Header';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="https://shusukeo.github.io/about-me">
       <Header/>
       <Route exact path={'/'} component={Home}/>
       <Route path={'/work'} component={Work}/>
