@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shusukeO/about-me/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/shusukeO/about-me/static/js/main.6a13ffed.chunk.js",
+    "main.js.map": "/shusukeO/about-me/static/js/main.6a13ffed.chunk.js.map",
+    "runtime-main.js": "/shusukeO/about-me/static/js/runtime-main.3adfd2d6.js",
+    "runtime-main.js.map": "/shusukeO/about-me/static/js/runtime-main.3adfd2d6.js.map",
+    "static/js/2.9ead2202.chunk.js": "/shusukeO/about-me/static/js/2.9ead2202.chunk.js",
+    "static/js/2.9ead2202.chunk.js.map": "/shusukeO/about-me/static/js/2.9ead2202.chunk.js.map",
+    "static/js/3.d0fe8bb0.chunk.js": "/shusukeO/about-me/static/js/3.d0fe8bb0.chunk.js",
+    "static/js/3.d0fe8bb0.chunk.js.map": "/shusukeO/about-me/static/js/3.d0fe8bb0.chunk.js.map",
+    "index.html": "/shusukeO/about-me/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/shusukeO/about-me/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.9ead2202.chunk.js.LICENSE.txt": "/shusukeO/about-me/static/js/2.9ead2202.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3adfd2d6.js",
+    "static/js/2.9ead2202.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.6a13ffed.chunk.js"
+  ]
+}
