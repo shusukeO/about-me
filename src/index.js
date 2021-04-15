@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Home from './components/Home/Home';
 import Work from './components/Work';
 import Footer from './components/Footer';
@@ -10,11 +10,14 @@ import AboutMe from './components/AboutMe/AboutMe';
 import Header from './components/Header';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/about-me">
       <Header/>
-      <Route exact path={'/'} component={Home}/>
-      <Route path={'/work'} component={Work}/>
-      <Route path={'/aboutMe'} component={AboutMe}/>
+      <Switch>
+        <Route exact path={'/'} component={Home}/>
+        <Route exact path={'/Work'} component={Work}/>
+        <Route exact path={'/AboutMe'} component={AboutMe}/>
+      </Switch>
+      
       <Footer/>
   </BrowserRouter>,
   document.getElementById('root')
