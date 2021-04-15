@@ -1,3 +1,11 @@
+# 概要
+ポートフォリオをReactで作ってみた。  
+相対パスではまった。リンクにはちゃんとLinkを使って、homepage等にはディレクトリを指定する。サブドメインとかは関係ない。  
+以下で公開  
+https://shusukeo.github.io/about-me/　　
+https://web.sfc.keio.ac.jp/~s19180so/usa21/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
