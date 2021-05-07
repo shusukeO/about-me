@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Home from './components/Home/Home';
-import Work from './components/Work';
+import Work from './components/Work/Work';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe/AboutMe';
 import Header from './components/Header';
