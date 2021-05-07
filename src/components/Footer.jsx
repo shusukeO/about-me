@@ -44,10 +44,10 @@ const Footer = (props) => {
                 <Box py={6} display="flex" flexWrap="wrap" alignItems="center">
                     <Typography color="textSecondary" component="p" gutterBottom={false} className={classes.copy}>{content['copy']}</Typography>
                     <Box ml="auto" className={classes.iconsBoxRoot}>
-                        <IconButton color="textSecondary" aria-label="Twitter">
+                        <IconButton aria-label="Twitter">
                             <TwitterIcon />
                         </IconButton>
-                        <IconButton color="textSecondary" aria-label="GitHub" href={content['github']}>
+                        <IconButton aria-label="GitHub" href={content['github']}>
                             <GitHub />
                         </IconButton>
                     </Box>
