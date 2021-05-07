@@ -97,7 +97,7 @@ const AboutMe = (props) => {
         'careers': [
             { label: '1999年 千葉県柏市生まれ' },
             { label: '2018年 千葉県立東葛飾高等学校卒業' },
-            { label: '2019年 Skagit Valley College中退' },
+            { label: '2019年 Skagit Valley College入学' },
             { label: '2019年〜 慶應義塾大学総合政策学部在籍' },
         ],
         ...props.content
