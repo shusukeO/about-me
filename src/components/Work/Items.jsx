@@ -23,10 +23,13 @@ const Items = (props) => {
 
     return (
         <>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={4}>
                 <Card>
-                    <CardActionArea href={props.href}>
-                        <CardMedia className={classes.media} image={props.image} />
+                    <CardActionArea href={props.href} target="_blank">
+                        {props.image == null ?
+                            <CardMedia className={classes.media} image="myicon.png" /> :
+                            <CardMedia className={classes.media} image={props.image} />
+                        }
                         <CardHeader title={props.title} subheader={props.description} titleTypographyProps={{ gutterBottom: true }} />
                     </CardActionArea>
                 </Card>
