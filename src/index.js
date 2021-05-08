@@ -8,9 +8,11 @@ import Work from './components/Work/Work';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe/AboutMe';
 import Header from './components/Header';
+import ScrollToTop from './components/ScrollToTop';
 
 ReactDOM.render(
   <BrowserRouter basename="/about-me">
+      <ScrollToTop />
       <Header/>
       <Switch>
         <Route exact path={'/'} component={Home}/>
