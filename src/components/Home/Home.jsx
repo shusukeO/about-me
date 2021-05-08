@@ -22,7 +22,7 @@ const Home = (props) => {
             {
                 image: 'works.jpeg',
                 title: "Works",
-                description: '作ったもの',
+                description: 'いろいろ',
                 href: '/Work',
             },
         ],
